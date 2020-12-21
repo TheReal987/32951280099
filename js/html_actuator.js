@@ -36,7 +36,7 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
 };
 
 // Continues the game (both restart and keep playing)
-HTMLActuator.prototype.continue = function () {
+HTMLActuator.prototype.continueGame = function () {
   this.clearMessage();
 };
 
@@ -56,8 +56,8 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
-
-  if (tile.value > 987) classes.push("tile-super");
+  if (tile.value > 8944394323791464)
+    classes = ["tile", "tile-" + 8944394323791464, positionClass];
 
   this.applyClasses(wrapper, classes);
 
