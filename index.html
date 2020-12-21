@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>987 - 2048 clone using Fibonacci sequence</title>
+  <title>12586269025</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -12,15 +12,11 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
-  <meta property="og:title" content="987 game - 2048 with Fibonacci numbers"/>
-  <meta property="og:site_name" content="987 game"/>
-  <meta property="og:description" content="Join the Fibonacci numbers and get to the 987 tile!"/>
-  <meta property="og:image" content="http://cozmic72.github.io/987/meta/og_image.png"/>
 </head>
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">987</h1>
+      <h1 class="title">12586269025</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -28,7 +24,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to the <strong>987 tile!</strong></p>
+      <p class="game-intro">Join the numbers and get to the <strong>12586269025 tile!</strong></p>
       <a class="restart-button">New Game</a>
     </div>
 
@@ -47,8 +43,6 @@
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
@@ -59,8 +53,66 @@
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
@@ -72,15 +124,26 @@
 
       </div>
     </div>
+	  
+	<div class="auto-move-container">
+		<p><strong>Move randomly with </strong><input type="text" name="auto-move-time" value="" id="auto-move-input-time" onkeypress='return event.charCode >= 48 && event.charCode <= 57' size="6" maxlength="8"><strong> ms.</strong> <input type="submit" value="Run" id="auto-move-run" class="auto-move-button"> <input type="submit" value="Stop" id="auto-move-stop" class="auto-move-button"></p>
+	</div>
 
     <p class="game-explanation">
       <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two neigbouring numbers from the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a> touch, they <strong>merge into the next one!</strong>
     </p>
     <hr>
-    <p>Based on 2048, created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli,</a> which was in turn based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a> The adaptation to '987' and the Fibonacci sequence is by Jonathan Ross. 
+    <p>
+    <strong class="important">Note:</strong> This site is NOT the official version of 2048. You can play the official one here: <a href="http://git.io/2048">http://git.io/2048.</a>
+    </p>
+    <hr>
+    <p>
+	Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a> Modified by <a href="#">TheReal96</a>.
     </p>
   </div>
 
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
   <script src="js/animframe_polyfill.js"></script>
   <script src="js/keyboard_input_manager.js"></script>
   <script src="js/html_actuator.js"></script>
@@ -89,5 +152,12 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
+  <script src="js/auto_move.js"></script>
+  <!--<script>window.scrollTo(0,document.body.scrollHeight);</script>-->
+  <style>
+	hr.tw{
+		border-color: blue;
+	}
+  </style>
 </body>
 </html>
