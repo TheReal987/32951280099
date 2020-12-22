@@ -1,5 +1,5 @@
 # 12586269025 
-  A fork of [9007199254740992](https://github.com/DmitryKuzmenko/2048) by Gabriele Cirulli.  I thought it would be nice to try the same game mechanics for other mathematical sequences... This one is using Fibonacci sequences. Next up will be a version using prime factors.
+  A fork of [9007199254740992](https://github.com/DmitryKuzmenko/2048) by Dmitry Kuzmenko.  I thought it would be nice to try the same game mechanics for other mathematical sequences... This one is using Fibonacci sequences. Next up will be a version using prime factors.
 
 Made just for fun. [Play it here!](https://thereal96.github.io/12586269025/)
 
